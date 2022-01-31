@@ -30,17 +30,20 @@
                 android:id="@+id/team_name"
                 android:text="Dr. X Y Z"
                 android:textStyle="bold"
+                android:layout_weight="0"
                 android:textSize="22sp"
                 android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/white"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"/>
+                android:layout_height="30sp"/>
             <TextView
                 android:id="@+id/team_position"
                 android:text="Positon XYZ"
                 android:textStyle="bold"
+                android:layout_weight="0"
                 android:layout_marginTop="4dp"
                 android:textSize="18sp"
+                android:alpha="0.8"
                 android:fontFamily="@font/inconsolata_medium"
                 android:textColor="@color/white"
                 android:layout_width="wrap_content"
